@@ -1,4 +1,4 @@
-name: wrong_input Test
+name: Run wrong_test Test
 
 on:
   pull_request:
