@@ -1,5 +1,5 @@
-from noises import animal_noises as noises
-from gallery import animals as gallery
+from .noises import animal_noises as noises
+from .gallery import animals as gallery
 import random
 
 def ascii_art(user_input):
