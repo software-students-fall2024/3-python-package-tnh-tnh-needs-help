@@ -28,7 +28,30 @@ ascii_art("woof") # Will print one dog
 
 ## How this package was created
 
-1. Add structure of our file here. Explain each line.
+.
+├── .github
+│   └── workflows
+│       ├── test_one.yaml
+│       ├── test_two.yaml
+│       ├── test_three.yaml
+│       └── test_four.yaml
+├── src
+│   └── ascii_art_TNH
+│       ├── **init**.py
+│       ├── **main**.py
+│       ├── ascii_art.py
+│       ├── gallery.py
+│       └── noises.py
+├── tests
+│   ├── **init**.py
+│   ├── input_parse_test.py
+│   ├── moo_test.py
+│   ├── wrong_input_test.py
+│   └── get_noise_test.py
+├── .gitignore
+├── [README.md](http://_vscodecontentref_/1)
+├── [pyproject.toml](http://_vscodecontentref_/2)
+└── requirements.txt
 
 ## How to install and use this package
 
