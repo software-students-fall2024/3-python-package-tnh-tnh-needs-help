@@ -1,5 +1,5 @@
-import src.ascii_art_TNH.noises as noises
-import src.ascii_art_TNH.gallery as gallery
+import ascii_art_TNH.noises as noises
+import ascii_art_TNH.gallery as gallery
 from .noises import animal_noises #testing this
 import random
 
@@ -7,12 +7,12 @@ def ascii_art(user_input):
   # Type of the input-make sure string
   # Strip trailing spaces
   animal_array = parse_input(user_input)
-  if random.random() < 0.05:
-    print(print_art("cow"))
   if len(animal_array) == 0:
     wrong_input("nothing", 0)
     return
   for animal in animal_array:
+    if random.random() < 0.05:
+      print(print_art("cow"))
     # If animal is in the gallery
     if animal in gallery.animals and animal in noises.animal_noises:
       print(print_art(animal))

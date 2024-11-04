@@ -1,4 +1,4 @@
-import src.ascii_art_TNH.ascii_art as art
+import ascii_art_TNH.ascii_art as art
 def main():
     while(True):
       user_input = input("Enter an animal or 'exit': ")
