@@ -23,7 +23,7 @@ from ascii_art_TNH import ascii_art
 
 ascii_art("cat dog") # Will print one cat and one dog
 
-ascii_art("woof") # Will print one dog
+ascii_art("cow") # Will print one cow
 ```
 
 ## How this package was created
