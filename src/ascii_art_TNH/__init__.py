@@ -1,1 +1,1 @@
-import ascii_art_TNH.ascii_art
+from ascii_art_TNH import *
