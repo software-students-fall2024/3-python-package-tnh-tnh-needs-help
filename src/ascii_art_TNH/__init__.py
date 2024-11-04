@@ -1,1 +1,1 @@
-from .ascii_art import *
+from .ascii_art import ascii_art
