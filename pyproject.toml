@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "Ascii_Art_TNH"
-version = "1.0.1"
+version = "1.0.2"
 authors = [
   { name="Hugo Bray", email="hwb4547@nyu.edu" },
   { name="Tamara Bueno", email="tb2803@nyu.edu"},
