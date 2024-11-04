@@ -18,7 +18,7 @@ ASCII Zoo allows you to:
 
 ## Example Code
 
-```sh
+```py
 from ascii_art_TNH import ascii_art
 
 ascii_art("cat dog") # Will print one cat and one dog
@@ -28,7 +28,7 @@ ascii_art("woof") # Will print one dog
 
 ## How this package was created
 
-```
+```sh
 .
 ├── .github
 │   └── workflows
@@ -50,8 +50,8 @@ ascii_art("woof") # Will print one dog
 │   ├── wrong_input_test.py
 │   └── get_noise_test.py
 ├── .gitignore
-├── [README.md](http://_vscodecontentref_/1)
-├── [pyproject.toml](http://_vscodecontentref_/2)
+├── README.md
+├── pyproject.toml
 └── requirements.txt
 ```
 
