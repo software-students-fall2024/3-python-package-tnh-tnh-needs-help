@@ -38,13 +38,13 @@ ascii_art("woof") # Will print one dog
 │       └── test_four.yaml
 ├── src
 │   └── ascii_art_TNH
-│       ├── **init**.py
-│       ├── **main**.py
+│       ├── __init__.py
+│       ├── __main__.py
 │       ├── ascii_art.py
 │       ├── gallery.py
 │       └── noises.py
 ├── tests
-│   ├── **init**.py
+│   ├── __init__.py
 │   ├── input_parse_test.py
 │   ├── moo_test.py
 │   ├── wrong_input_test.py
