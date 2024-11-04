@@ -28,6 +28,7 @@ ascii_art("woof") # Will print one dog
 
 ## How this package was created
 
+```
 .
 ├── .github
 │   └── workflows
@@ -52,6 +53,7 @@ ascii_art("woof") # Will print one dog
 ├── [README.md](http://_vscodecontentref_/1)
 ├── [pyproject.toml](http://_vscodecontentref_/2)
 └── requirements.txt
+```
 
 ## How to install and use this package
 
