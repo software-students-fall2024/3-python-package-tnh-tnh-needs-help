@@ -1,4 +1,4 @@
-from ascii_art import *
+from .ascii_art import *
 def main():
     while(True):
       user_input = input("Enter an animal or 'exit': ")

@@ -1,5 +1,5 @@
-from . import noises as noises
-from . import gallery as gallery
+from noises import animal_noises as noises
+from gallery import animals as gallery
 import random
 
 def ascii_art(user_input):
@@ -13,7 +13,7 @@ def ascii_art(user_input):
     if random.random() < 0.05:
       print(print_art("cow"))
     # If animal is in the gallery
-    if animal in gallery.animals and animal in noises.animal_noises:
+    if animal in gallery and animal in noises:
       print(print_art(animal))
       print(get_noise(animal))
     else:
@@ -32,12 +32,12 @@ def parse_input(user_input):
 def print_art(animal):
   #match animal with art
   #calls print_noise or wrong_input
-  return(gallery.animals.get(animal))
+  return(gallery.get(animal))
 
 
 def get_noise(animal):
    #match animal with noise
-  return noises.animal_noises.get(animal)
+  return noises.get(animal)
 
 def wrong_input(animals, length):
   #if multiple animals were inputed, print flowers
