@@ -92,4 +92,4 @@ This project uses a continuous integration workflow that builds and runs unit te
 [Hugo](https://github.com/BringoJr)\
 [Nuzhat](https://github.com/ntb5562)\
 [Melanie](https://github.com/melanie-y-zhang)\
-[Tamara](https://github.com/TamaraBuenoo)\
+[Tamara](https://github.com/TamaraBuenoo)
