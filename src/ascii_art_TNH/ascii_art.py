@@ -27,7 +27,7 @@ def parse_input(user_input):
   clean_input = []
   for input in inputs:
     if input != "" and input.isalpha():
-      clean_input.append(input)
+      clean_input.append(input.lower())
   return clean_input
 
 def print_art(animal):

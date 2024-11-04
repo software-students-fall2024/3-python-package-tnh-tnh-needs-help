@@ -5,8 +5,6 @@
 [![Run wrong_test](https://github.com/software-students-fall2024/3-python-package-tnh-tnh-needs-help/actions/workflows/test_three.yaml/badge.svg?v=1)](https://github.com/software-students-fall2024/3-python-package-tnh-tnh-needs-help/actions/workflows/test_three.yaml)
 [![Run get_noise_test](https://github.com/software-students-fall2024/3-python-package-tnh-tnh-needs-help/actions/workflows/test_four.yaml/badge.svg)](https://github.com/software-students-fall2024/3-python-package-tnh-tnh-needs-help/actions/workflows/test_four.yaml)
 
-An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
-
 ## Project Description
 
 ASCII ZOO is a small silly python package that prints ASCII animal art based on certain user inputs. Watch out for the interrupting cow... (It appears randomly).
@@ -17,6 +15,16 @@ ASCII Zoo allows you to:
 2. **Animal Sounds**: Outputs the corresponding sound after printing the ASCII animal.
 3. **Surprise Cow**: Randomly shows up with an ASCII art representation and a “moo”.
 4. **Wrong Output**: Handles unrecognized animal names, confirming wrong input with a playful response.
+
+## Example Code
+
+```sh
+from ascii_art_TNH import ascii_art
+
+ascii_art("cat dog") # Will print one cat and one dog
+
+ascii_art("woof") # Will print one dog
+```
 
 ## How this package was created
 
@@ -30,20 +38,50 @@ ASCII Zoo allows you to:
 - **pip** (Python package installer)
 - **pipenv** (for managing virtual environments)
 
-Coming Soon...
-
 ### Installation
+
+You can find our package on PyPI: [Ascii_Art_TNH](https://pypi.org/project/Ascii_Art_TNH/)
+
+To install the package, use pip:
+
+```sh
+pip install Ascii_Art_TNH
+```
 
 ## How to run unit tests
 
 Test are included within the 'test' directory. To run these test...
 
 1. Install pytest in a virtual enviorment
-2. Run the test from the main project directory: 'python3 -m pytest'
+2. Run the test from the main project directory:
 
-## Pro tip
+```sh
+python3 -m pytest
+```
 
-Coming soon...
+## How to contribute
+
+Clone the repository
+
+```sh
+git clone https://github.com/software-students-fall2024/3-python-package-tnh-tnh-needs-help.git
+cd 3-python-package-tnh-tnh-needs-help
+```
+
+Set up the virtual environment and install any dependencies
+
+```sh
+python -m venv venv
+source venv/bin/activate 
+pip install -r requirements.txt
+```
+
+Build and test the package
+
+```sh
+python -m build
+python -m pytest
+```
 
 ## Continuous integration
 
